@@ -19,7 +19,10 @@ form ul li{
 ul li input{
     display: block;
     padding: 5px;
-    margin: 0 10px
+    margin: 0 10px;
+    max-width: 360px;
+    width: 100%;
+    
 }
 
 ul li label{
@@ -38,4 +41,13 @@ button{
     font-size: 16px;
     font-weight: bold;
     cursor: pointer; 
+}
+
+.end{
+    width: 170px;
+    
+}
+
+.endereco{
+    display: flex
 }

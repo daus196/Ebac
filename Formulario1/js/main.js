@@ -12,4 +12,6 @@ $(document).ready(function () {
         placeholder:'00000-000'
     }); 
 
+    $('#numeroEnd').mask('00000000')
+
 });
