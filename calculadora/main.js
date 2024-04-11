@@ -64,3 +64,5 @@ function calculaMediaFinal(){
 
     return somaDasNotas / notas.length
 }
+
+
