@@ -1,0 +1,91 @@
+header h1{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+}
+
+body{
+    background-color: rgb(3, 3, 75);
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+header{
+    background-color: rgb(3, 3, 75);;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3, 35%);
+    column-gap: 1%;
+    
+}
+
+.card{
+    margin-bottom: 10px;
+    
+}
+
+article img{
+    width: 100%;
+    height:143px;
+    object-fit: contain;
+}
+
+.section-card{
+    margin-top: 20px;
+}
+
+#carousel-exemplo{
+    object-fit: contain;
+}
+
+div h2{
+    color: #fff;
+}
+
+form label,
+form input{
+    color: #fff;
+}
+
+form button{
+    margin-top: 16px;
+}
+
+.col-4{
+    margin-top: 10px;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 1%; 
+    }
+
+    .card-body{
+        height: 245px;
+        
+    }
+}
+
+@media screen and (max-width:640px){
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        
+    }
+
+}

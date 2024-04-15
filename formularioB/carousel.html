@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <script src="lib/bootstrap.bundle.min.js" defer ></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/04/12/04/horse-7899209_1280.jpg" alt="" srcset="">
+                </div>
+                <div data-bs-interval="3000"  class="carousel-item">
+                    <img class="d-block w-100" src="dog-1772759_960_720.jpg" alt="" srcset="">
+                </div>
+                <div data-bs-interval="3000"  class="carousel-item">
+                    <img class="d-block w-100" src="french-bulldog-5219522_1280.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+    
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+    
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>

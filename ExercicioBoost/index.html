@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helmets.com</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Helmets.com</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 h-90" src="https://cdn.pixabay.com/photo/2023/11/05/06/55/motorcycle-8366394_1280.jpg" alt="" srcset="">
+                </div>
+                <div data-bs-interval="3000"  class="carousel-item">
+                    <img class="d-block w-100 h-90" src="https://cdn.pixabay.com/photo/2023/08/27/00/08/cycling-8215968_1280.jpg" alt="" srcset="">
+                </div>
+                <div data-bs-interval="3000"  class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/road-racing-3535971_640.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+        
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+    <div class="container section-card">
+        <div class="container1">
+            <div id="produtos">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Esportivo
+                    </header>
+                    <img src="./imagens/helmets-4756550_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete esportivo</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 2.000,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+            <div>
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Bicicleta
+                    </header>
+                    <img class="ajusteAltura" src="./imagens/activity-4769731_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete para Bicicleta</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 1.000,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+            <div>
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Esportivo
+                    </header>
+                    <img src="imagens/motorbike-helmet-1021575_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete para passeio</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 1.500,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>              
+                </article>
+            </div>
+            <div >
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Esportivo
+                    </header>
+                    <img src="./imagens/helmets-4756550_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete esportivo</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 2.000,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+            <div >
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Bicicleta
+                    </header>
+                    <img class="ajusteAltura" src="./imagens/activity-4769731_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete para Bicicleta</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 1.000,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+            <div>
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Esportivo
+                    </header>
+                    <img src="imagens/motorbike-helmet-1021575_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Capacete para passeio</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab 
+                        </p>
+                        <strong>R$ 1.500,00</strong>
+                        <div>
+                            <button class="btn btn-success" type="button">Comprar </button>
+                        </div>
+                    </div>              
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contatos">
+        <h2>Contato:</h2>
+
+        <form>
+            <label class="form-label" for="nome">Nome:</label>
+            <input class="form-control" type="text">
+            <label class="form-label" for="nome">Email:</label>
+            <input class="form-control" type="email">
+            <label class="form-label" for="nome">Telefone:</label>
+            <input class="form-control" type="number">
+            <label for="form-label">Sua Mensagem:</label>
+            <textarea class="form-control"></textarea>
+            <button class="btn btn-primary" type="button">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy;Todos os direitos reservados
+    </footer>
+
+
+    
+    
+</body>
+</html>
