@@ -1,0 +1,74 @@
+
+.hero{
+    display: grid;
+    grid-template-columns: 67% 27%;
+    gap: 5%;
+    
+    @media (max-width: 768px) {
+            grid-template-columns: 100%;
+        }
+
+    @media (max-width:1024px){
+        grid-template-columns: 100%;
+    }
+    
+    &__div{
+        
+        padding: 2px 5.6vw;
+        min-height: 80vh;
+        background-image: url(../../images/Hero.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+
+        @media (max-width:768px){
+            min-height: 35vh;
+            background-size: contain;
+        }
+        @media (max-width:1024px){
+            min-height: 40vh;
+            background-size: cover;
+        }
+
+    }
+
+    &__content{
+        text-align: center;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        background-color: #e7ddae;
+        font-family: Avenir;
+        font-weight: 700;
+        border-radius: 6px;
+        max-height: 725px;
+
+        @media (max-width:768px){
+            font-size: 14px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width:1024px){
+            font-size: 24px;
+            padding-bottom: 50px;
+            margin-bottom: 30px;
+        }
+        
+        p{
+            text-align: left;
+            font-size: 16px;
+            padding: 20px;
+            @media (max-width:1024px){
+                font-size: 18px;
+                
+            }
+            
+        }
+
+        h2{
+            margin-top: 10px;
+        }
+
+    }
+}
+

@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    background-color: #000;
+    margin: 0 auto;
+    
+    &__container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+        
+        p{
+            color: silver;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        &__img{
+            width: 80px;
+            margin: 10px auto;
+        }
+    }
+
+    &__links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        &__item{
+            display: inline-block;
+            padding: 3px 10px;
+        a{
+            color: silver; 
+            font-size: 14px;
+        }
+
+        }
+    }
+
+}
